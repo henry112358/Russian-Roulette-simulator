@@ -1,4 +1,4 @@
-Russian-roulette-simultor-
+Russian-roulette-simultor
 ==========================
 get_ipython().magic(u'pylab inline')
 import matplotlib.pyplot as plt
