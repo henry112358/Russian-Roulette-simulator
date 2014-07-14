@@ -18,7 +18,8 @@ t = np.arange(n)
 
 >result = [1,-1]  
 x=np.random.choice(result,n,p=[0.4864,0.5136])  
-ts=np.cumsum(x) 由 np.random.choice()  
+ts=np.cumsum(x)   
+由 np.random.choice()  
 模擬每回合的輸贏 分別以 0.4864,0.5136的機率傳回1(贏)或-1(輸)  
 由 np.cumsum() 建立由累積每次輸贏的時間序列資料 存在 ts 中
 
