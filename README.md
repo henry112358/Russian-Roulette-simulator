@@ -25,11 +25,14 @@ ts=np.cumsum(x) 由 np.random.choice()
 >由二項分配公式得出每回合淨輸贏金額的期望值和標準差 mean ,sigma
 
 >由 plt.fill_between() 畫出由95%信賴區間所構成的淺黃色區域  
-上界和下界構成:  
+
+ps.  
+信賴區間的上下界:  
 
 上界:(t*0.4864-2*sigmat)*1 + (t-(t*0.4864-2*sigmat))*-1  
 
-下界:(t*0.4864+2*sigmat)*1 + (t-(t*0.4864+2*sigmat))*-1
+下界:(t*0.4864+2*sigmat)*1 + (t-(t*0.4864+2*sigmat))*-1  
+sigmat 為由t=1,t=2,t=3....t=n時的標準差構成的數列
 
 #### <i class="icon-file"></i>實測 
 
