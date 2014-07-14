@@ -26,11 +26,8 @@ ts=np.cumsum(x) 由 np.random.choice()
 
 >由 plt.fill_between() 畫出由95%信賴區間所構成的淺黃色區域  
 
-ps.  
-信賴區間的上下界:  
-
+ps.信賴區間:  
 上界:(t*0.4864-2*sigmat)*1 + (t-(t*0.4864-2*sigmat))*-1  
-
 下界:(t*0.4864+2*sigmat)*1 + (t-(t*0.4864+2*sigmat))*-1  
 sigmat 為由t=1,t=2,t=3....t=n時的標準差構成的數列
 
