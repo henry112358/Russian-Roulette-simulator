@@ -30,7 +30,7 @@ np.cumsum() 建立由累積每次輸贏的時間序列資料 存在 ts 中
 ps.信賴區間:  
 上界:(t*0.4864-2*sigmat)*1 + (t-(t*0.4864-2*sigmat))*-1  
 下界:(t*0.4864+2*sigmat)*1 + (t-(t*0.4864+2*sigmat))*-1  
-sigmat 為由t=1,t=2,t=3....t=n時的標準差構成的數列
+sigmat 為t=1,t=2,t=3....t=n時的標準差構成的數列
 
 #### <i class="icon-file"></i>實測 
 
