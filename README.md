@@ -14,7 +14,7 @@ ps.因為俄羅斯輪盤有 "0" 這個格子
 >: n = int(raw_input("n=?"))  
 t = np.arange(n)  
 使用者輸入下注的次數  
-並用 np.arange(n)建立 [1,2,3.....t] 的數列
+並用 np.arange(n)建立 [1,2,3.....n] 的數列
 
 >result = [1,-1]  
 x=np.random.choice(result,n,p=[0.4864,0.5136])  
