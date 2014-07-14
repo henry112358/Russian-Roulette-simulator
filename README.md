@@ -33,5 +33,6 @@ sigmat 為由t=1,t=2,t=3....t=n時的標準差構成的數列
 
 #### <i class="icon-file"></i>實測 
 
->當輸入n=10000 得出此圖
+>當輸入n=10000 得出此圖  
+
 https://hostr.co/bv2chTDuQ7Lq
